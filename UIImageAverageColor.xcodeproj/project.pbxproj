@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B36BAE15ECB9E100BA1F30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B36BAD15ECB9E100BA1F30 /* UIKit.framework */; };
+		91B36BB015ECB9E100BA1F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B36BAF15ECB9E100BA1F30 /* Foundation.framework */; };
+		91B36BB215ECB9E100BA1F30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B36BB115ECB9E100BA1F30 /* CoreGraphics.framework */; };
+		91B36BB815ECB9E100BA1F30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91B36BB615ECB9E100BA1F30 /* InfoPlist.strings */; };
+		91B36BBA15ECB9E100BA1F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B36BB915ECB9E100BA1F30 /* main.m */; };
+		91B36BBE15ECB9E100BA1F30 /* NRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B36BBD15ECB9E100BA1F30 /* NRAppDelegate.m */; };
+		91B36BC115ECB9E100BA1F30 /* NRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B36BC015ECB9E100BA1F30 /* NRViewController.m */; };
+		91B36BC415ECB9E100BA1F30 /* NRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B36BC215ECB9E100BA1F30 /* NRViewController.xib */; };
+		91B36BCD15ECBA8B00BA1F30 /* UIImageAverageColorAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B36BCC15ECBA8B00BA1F30 /* UIImageAverageColorAddition.m */; settings = {COMPILER_FLAGS = "-Os"; }; };
+		91B36BCF15ECC09000BA1F30 /* Lena.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 91B36BCE15ECC09000BA1F30 /* Lena.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91B36BA915ECB9E100BA1F30 /* UIImageAverageColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageAverageColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B36BAD15ECB9E100BA1F30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91B36BAF15ECB9E100BA1F30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91B36BB115ECB9E100BA1F30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91B36BB515ECB9E100BA1F30 /* UIImageAverageColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIImageAverageColor-Info.plist"; sourceTree = "<group>"; };
+		91B36BB715ECB9E100BA1F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91B36BB915ECB9E100BA1F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91B36BBB15ECB9E100BA1F30 /* UIImageAverageColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageAverageColor-Prefix.pch"; sourceTree = "<group>"; };
+		91B36BBC15ECB9E100BA1F30 /* NRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAppDelegate.h; sourceTree = "<group>"; };
+		91B36BBD15ECB9E100BA1F30 /* NRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAppDelegate.m; sourceTree = "<group>"; };
+		91B36BBF15ECB9E100BA1F30 /* NRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRViewController.h; sourceTree = "<group>"; };
+		91B36BC015ECB9E100BA1F30 /* NRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRViewController.m; sourceTree = "<group>"; };
+		91B36BC315ECB9E100BA1F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NRViewController.xib; sourceTree = "<group>"; };
+		91B36BCB15ECBA8B00BA1F30 /* UIImageAverageColorAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAverageColorAddition.h; sourceTree = "<group>"; };
+		91B36BCC15ECBA8B00BA1F30 /* UIImageAverageColorAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAverageColorAddition.m; sourceTree = "<group>"; };
+		91B36BCE15ECC09000BA1F30 /* Lena.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Lena.tiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B36BA615ECB9E100BA1F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B36BAE15ECB9E100BA1F30 /* UIKit.framework in Frameworks */,
+				91B36BB015ECB9E100BA1F30 /* Foundation.framework in Frameworks */,
+				91B36BB215ECB9E100BA1F30 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B36B9E15ECB9E100BA1F30 = {
+			isa = PBXGroup;
+			children = (
+				91B36BB315ECB9E100BA1F30 /* UIImageAverageColor */,
+				91B36BAC15ECB9E100BA1F30 /* Frameworks */,
+				91B36BAA15ECB9E100BA1F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B36BAA15ECB9E100BA1F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B36BA915ECB9E100BA1F30 /* UIImageAverageColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B36BAC15ECB9E100BA1F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B36BAD15ECB9E100BA1F30 /* UIKit.framework */,
+				91B36BAF15ECB9E100BA1F30 /* Foundation.framework */,
+				91B36BB115ECB9E100BA1F30 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91B36BB315ECB9E100BA1F30 /* UIImageAverageColor */ = {
+			isa = PBXGroup;
+			children = (
+				91B36BBC15ECB9E100BA1F30 /* NRAppDelegate.h */,
+				91B36BBD15ECB9E100BA1F30 /* NRAppDelegate.m */,
+				91B36BBF15ECB9E100BA1F30 /* NRViewController.h */,
+				91B36BC015ECB9E100BA1F30 /* NRViewController.m */,
+				91B36BC215ECB9E100BA1F30 /* NRViewController.xib */,
+				91B36BB415ECB9E100BA1F30 /* Supporting Files */,
+				91B36BCB15ECBA8B00BA1F30 /* UIImageAverageColorAddition.h */,
+				91B36BCC15ECBA8B00BA1F30 /* UIImageAverageColorAddition.m */,
+			);
+			path = UIImageAverageColor;
+			sourceTree = "<group>";
+		};
+		91B36BB415ECB9E100BA1F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B36BB515ECB9E100BA1F30 /* UIImageAverageColor-Info.plist */,
+				91B36BB615ECB9E100BA1F30 /* InfoPlist.strings */,
+				91B36BB915ECB9E100BA1F30 /* main.m */,
+				91B36BBB15ECB9E100BA1F30 /* UIImageAverageColor-Prefix.pch */,
+				91B36BCE15ECC09000BA1F30 /* Lena.tiff */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B36BA815ECB9E100BA1F30 /* UIImageAverageColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B36BC715ECB9E100BA1F30 /* Build configuration list for PBXNativeTarget "UIImageAverageColor" */;
+			buildPhases = (
+				91B36BA515ECB9E100BA1F30 /* Sources */,
+				91B36BA615ECB9E100BA1F30 /* Frameworks */,
+				91B36BA715ECB9E100BA1F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImageAverageColor;
+			productName = AvgColor;
+			productReference = 91B36BA915ECB9E100BA1F30 /* UIImageAverageColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B36BA015ECB9E100BA1F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Savoy Software";
+			};
+			buildConfigurationList = 91B36BA315ECB9E100BA1F30 /* Build configuration list for PBXProject "UIImageAverageColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91B36B9E15ECB9E100BA1F30;
+			productRefGroup = 91B36BAA15ECB9E100BA1F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B36BA815ECB9E100BA1F30 /* UIImageAverageColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B36BA715ECB9E100BA1F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B36BB815ECB9E100BA1F30 /* InfoPlist.strings in Resources */,
+				91B36BC415ECB9E100BA1F30 /* NRViewController.xib in Resources */,
+				91B36BCF15ECC09000BA1F30 /* Lena.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B36BA515ECB9E100BA1F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B36BBA15ECB9E100BA1F30 /* main.m in Sources */,
+				91B36BBE15ECB9E100BA1F30 /* NRAppDelegate.m in Sources */,
+				91B36BC115ECB9E100BA1F30 /* NRViewController.m in Sources */,
+				91B36BCD15ECBA8B00BA1F30 /* UIImageAverageColorAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91B36BB615ECB9E100BA1F30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B36BB715ECB9E100BA1F30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91B36BC215ECB9E100BA1F30 /* NRViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B36BC315ECB9E100BA1F30 /* en */,
+			);
+			name = NRViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91B36BC515ECB9E100BA1F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91B36BC615ECB9E100BA1F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B36BC815ECB9E100BA1F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImageAverageColor/UIImageAverageColor-Prefix.pch";
+				INFOPLIST_FILE = "UIImageAverageColor/UIImageAverageColor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = UIImageAverageColor;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91B36BC915ECB9E100BA1F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImageAverageColor/UIImageAverageColor-Prefix.pch";
+				INFOPLIST_FILE = "UIImageAverageColor/UIImageAverageColor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = UIImageAverageColor;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B36BA315ECB9E100BA1F30 /* Build configuration list for PBXProject "UIImageAverageColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B36BC515ECB9E100BA1F30 /* Debug */,
+				91B36BC615ECB9E100BA1F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B36BC715ECB9E100BA1F30 /* Build configuration list for PBXNativeTarget "UIImageAverageColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B36BC815ECB9E100BA1F30 /* Debug */,
+				91B36BC915ECB9E100BA1F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B36BA015ECB9E100BA1F30 /* Project object */;
+}
